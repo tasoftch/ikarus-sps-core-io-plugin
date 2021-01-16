@@ -1,0 +1,22 @@
+{
+  "name": "ikarus/sps-core-io-plugin",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Thomas Abplanalp",
+      "email": "info@tasoft.ch"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ikarus\\Core\\" : "src"
+    }
+  },
+  "require" : {
+    "php": ">=7.2",
+    "ikarus/sps": "^1.3"
+  },
+  "require-dev": {
+    "ikarus/sps-dev": "dev-master"
+  }
+}
